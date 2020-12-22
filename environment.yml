@@ -1,4 +1,4 @@
-name: house-discoverer
+name: house_discover
 
 channels:
   - conda-forge
