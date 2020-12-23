@@ -26,6 +26,11 @@ dependencies:
   - textblob >= 0.15.3
   - tqdm >= 4.54.1
   - pip:
-      - google-colab >= 1.0.0
+
+# Disabling google-colab lets us get ipykernel 5.4.2 and tornado 6.1,
+# which do not suffer the "ERROR:tornado.general:Uncaught exception in ZMQStream callback"
+# "ValueError: signal only works in main thread" symptom upon cell evaluation.
+#     - google-colab >= 1.0.0
+
       - psycopg2-binary >= 2.8.6
       - surprise >= 0.1
