@@ -25,6 +25,7 @@ To run the Siamese Network demo,
 
 Retrieve them from Google Drive.
 Each is a little over 50 MiB.
+Run `Milestones/final/verify_input_files_exist.sh` to check on them.
 
 (3.) Start a kernel in the usual way:
 
@@ -37,4 +38,3 @@ If need be you can click the icon, or use ?token=... , or
     $ jupyter notebook list
 
 will reveal token of a running kernel.
-
