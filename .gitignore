@@ -2,4 +2,8 @@
 .idea/
 .ipynb_checkpoints/
 __pycache__/
+Milestones/final/data_processing/all_webdata.pkl
+Milestones/final/data_processing/all_webdata_filtered.pkl
+Milestones/final/data_processing/list_of_rexurls.csv
+Milestones/final/data_processing/webevents_info/
 Milestones/final/models/data/
