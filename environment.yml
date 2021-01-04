@@ -3,7 +3,6 @@ name: house_discover
 channels:
   - conda-forge
   - pytorch
-  - rexchange
 
 dependencies:
   - flake8 >= 3.8.4
@@ -16,7 +15,6 @@ dependencies:
   - pip >= 20.3.3
   - python >= 3.7.9
   - pytorch >= 1.6.0
-  - rexsettings >= 1.34.0
   - ruamel.yaml >= 0.16.12
   - scipy >= 1.5.3
   - seaborn >= 0.11.1
